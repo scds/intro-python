@@ -25,18 +25,20 @@ Presentation by Vivek Jadon, Data Specialist. [Get in touch with Vivek.](https:/
 
 <!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->
 Access to one of the following (this will be covered in the Preparation page):
-	- Jupyter Notebook
-	- Google Colab
-    - Local Python installation (Anaconda)
+- Jupyter Notebook
+- Google Colab
+- Local Python installation (Anaconda)
+
+## Learning Objectives
 
 <!-- What will the student learn to do, learn to use, etc. -->
 By the end of this tutorial, you should be able to:
-	- Describe what Python is and how it can be used
-	- Create, modify, and use variables to store and use data
-	- Display textual data to the screen
-	- Understand the different Python built-in data types
-	- Use conditional statements and loops
-    - Create and use functions
+- Describe what Python is and how it can be used
+- Create, modify, and use variables to store and use data
+- Display textual data to the screen
+- Understand the different Python built-in data types
+- Use conditional statements and loops
+- Create and use functions
 
 <!-- Estimate the time the workshop will take to complete. Feel free to remove this. -->
 ## Duration (optional)
