@@ -34,7 +34,7 @@ Access to one of the following (this will be covered in the Preparation page):
 <!-- What will the student learn to do, learn to use, etc. -->
 By the end of this tutorial, you should be able to:
 - Describe what Python is and how it can be used
-- Create, modify, and use variables to store and use data
+- Create, use, and modify variables to store and use data
 - Display textual data to the screen
 - Understand the different Python built-in data types
 - Use conditional statements and loops

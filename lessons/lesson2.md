@@ -8,8 +8,7 @@ parent: Lessons
 {: .no_toc}  
 # Lesson 2 - Storing and Displaying Data
 
-We can use Python as a calculator, sure… but where is our data being stored? What if we need to perform multiple operations to our data?
-fix this paragraph up
+You may have noticed that Python will only output the last expression in the program. In this lesson, you will learn how to display more data to the screen, as well as how to store data in variables.
 
 <details markdown="block">
   <summary>
@@ -36,12 +35,13 @@ Rather than just using numbers in our calculator, we can initialize and store th
 
 ## Identifier Rules
 
-Before we use variables, we need to talk about Python's rules and restrictions regarding variable names, otherwise known as identifiers.
+All variables need identifiying names, more formerly called identifiers.
 
-	- Identifiers can consist of uppercase letters, lowercase letters, digits, and underscores.
-	- Identifiers cannot start with a digit.
-	- There are some identifiers reserved for Python's use only, it's usually common keywords like "and", "if", "or", etc.
-		○ You can find a full list here. https://www.w3schools.com/python/python_ref_keywords.asp
+Before we use variables, we need to talk about Python's rules and restrictions regarding variable names, otherwise known as identifiers.
+- Identifiers can consist of uppercase letters, lowercase letters, digits, and underscores.
+- Identifiers cannot start with a digit.
+- There are some identifiers reserved for Python's use only, it's usually common keywords like "and", "if", "or", etc.
+  - You can find a full list here. https://www.w3schools.com/python/python_ref_keywords.asp
 
 question about valid/invalid identifers
 
