@@ -21,7 +21,7 @@ Follow along with the introductory video, slides, or text below.
 [Download slides here.](assets/docs/examplePDF.pdf) -->
 
 ## What is Python?
-Python is a high-level dynamic object-oriented programming language. It's a beginner-friendly language due to its simpler syntax and high-level data structures, along many other reasons.
+Python is one of the most used programming languages in the world. It's a beginner-friendly language due to its simpler syntax and high-level data structures, along many other reasons. Python is also a general-purpose programming language, meaning that it can be used to create a wide variety of tools and applications.
 
 ### History of Python
 Python was created in the Netherlands in the early 90s by Guido van Rossum. It was created to be the successor of the ABC programming language, a language that Guido von Rossum helped develop. He continued working on Python until mid-2018, when he decided to step down from being the "benevolent dictator for life" (a title given by the Python community to him.) In early 2019, an election was held where core Python developers would vote for key figures to be part of the steering council for Python. 

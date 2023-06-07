@@ -24,12 +24,12 @@ For this workshop, you will need access to a Python interpreter. We provide 3 to
 
 ## 2. Google Colab
 - If Jupyter Notebook didn't work out for you, Google Colab is a wonderful web-based alternative. 
-- Go to https://colab.research.google.com/ and sign in with your Google account.
+- Go to <https://colab.research.google.com/> and sign in with your Google account.
 
 ## 3. Anaconda
 - If you'd rather have a local installation of Python, you can use Anaconda. Anaconda is a distribution of Python built for data science. It comes included with useful data science packages.
-- Download and install https://www.anaconda.com/.
+- Download and install at <https://www.anaconda.com/>.
 - Follow along with the guide for your OS system for installation instructions.
-    - Windows: https://docs.anaconda.com/free/anaconda/install/windows/
-    - MacOS: https://docs.anaconda.com/free/anaconda/install/mac-os/
-    - Linux: https://docs.anaconda.com/free/anaconda/install/linux/
+    - Windows: <https://docs.anaconda.com/free/anaconda/install/windows/>
+    - MacOS: <https://docs.anaconda.com/free/anaconda/install/mac-os/>
+    - Linux: <https://docs.anaconda.com/free/anaconda/install/linux/>

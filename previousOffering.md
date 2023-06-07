@@ -10,7 +10,7 @@ parent: Home
 
 
 # Previous Offerings
-Workshop live recordings are provided here. They are an alternative to the workshop content provided on the website.
+Workshop live recordings are provided here. They are an **alternative** to the workshop content provided on the website.
 
 ## October 2022
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/60aeca91-1d04-493f-a94e-ee733efa3520/public"></iframe>
