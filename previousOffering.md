@@ -16,5 +16,5 @@ Workshop live recordings are provided here. They are an alternative to the works
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/60aeca91-1d04-493f-a94e-ee733efa3520/public"></iframe>
 [View original here.](https://echo360.ca/media/60aeca91-1d04-493f-a94e-ee733efa3520/public)
 
-<embed src="assets/docs/examplePDF.pdf" style="border:none;" width="100%" height="466px">
-[Download as PDF.](assets/docs/examplePDF.pdf)
+<embed src="assets/docs/IntroPythonSlides.pdf" style="border:none;" width="100%" height="466px">
+[Download as PDF.](assets/docs/IntroPythonSlides.pdf)

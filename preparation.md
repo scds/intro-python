@@ -15,32 +15,21 @@ Seperate preparation into account creation, file downloads, and software downloa
 However, you can format this as you wish.
 An example is provided below.
 -->
-## 1. Create an account
-- Navigate to [website](https://www.google.com) and sign up for an account if you don't already have one.
-- After registering, sign in to your account.
 
-## 2. Get the data
-You will have an opportunity to download the data during the workshop; however, if you would like to do so ahead of time, it can be downloaded [here](https://www.google.com).
+For this workshop, you will need access to a Python interpreter. We provide 3 tools below, you may use whatever works for you best.
 
-## 3. Get the software
-This hands-on workshop uses [Software Name](https://www.google.com). Please download *Software Name* in advance of the workshop to be able to participate in it to the fullest extent.
+## 1. Jupyter Notebook (recommended)
+- Jupyter Notebook is a web-based Python interpreter. This will be what we are going to use in the workshop. McMaster members should have automatic access to this tool. If you don't have access to Jupyter Notebook, two other alternatives are provided below.
+- Simply navigate to <https://mcmaster.syzygy.ca/> and sign in with your McMaster account.
 
-{: .warning }
-> This is a warning message. You can use to to mention things like:
->
-> - Must be a McMaster Student/Staff to access content/software licenses
-> - Windows/MacOS/Linux is not supported
+## 2. Google Colab
+- If Jupyter Notebook didn't work out for you, Google Colab is a wonderful web-based alternative. 
+- Go to https://colab.research.google.com/ and sign in with your Google account.
 
-### Windows/Mac Installation
-<!-- Usually, linking to an installation guide on the official website of the software is enough, no need to explain how to install. -->
-<!-- If there are additional steps not covered in the installation guide, include them -->
-- Steps for installation.
-
-    ![An image to show the step above](assets/img/temporaryInstallationGuide.png)
-
-- More guidance can be found [here](https://www.google.com).
-
-### Linux Installation
-- Steps for installation.
-- More steps for installation.
-- More guidance can be found [here](https://www.google.com).
+## 3. Anaconda
+- If you'd rather have a local installation of Python, you can use Anaconda. Anaconda is a distribution of Python built for data science. It comes included with useful data science packages.
+- Download and install https://www.anaconda.com/.
+- Follow along with the guide for your OS system for installation instructions.
+    - Windows: https://docs.anaconda.com/free/anaconda/install/windows/
+    - MacOS: https://docs.anaconda.com/free/anaconda/install/mac-os/
+    - Linux: https://docs.anaconda.com/free/anaconda/install/linux/

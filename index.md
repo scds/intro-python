@@ -15,31 +15,32 @@ Add, edit, or remove any content below for the workshop in question. -->
 <img src="assets/img/titleSlide.png" alt="Workshop Title Slide" width="100%">
 
 <!-- Main header -->
-# Getting started with ___.
+# Introduction to Python.
 
-This is a short description about the topic of the workshop. Replace this text with your own.
+This beginner level workshop will introduce you to the basic concepts of one of the world's most popular programming languages, Python. In this tutorial, you'll learn (learning objectives line). No prior knowledge of Python is required.
 
-In this tutorial, you will learn about ______.
+Presentation by Vivek Jadon, Data Specialist. [Get in touch with Vivek.](https://library.mcmaster.ca/index.php/jadon-vivek)
 
 ## Prerequisites
 
 <!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->
-- A [GitHub.com](https://www.github.com) account.
-- Installation of [Python](https://www.python.org/downloads/). (This will be covered in the [Preparation](preparation) page)
-- Some familiary with **softwareName/topic here**
+Access to one of the following (this will be covered in the Preparation page):
+	- Jupyter Notebook
+	- Google Colab
+    - Local Python installation (Anaconda)
 
 <!-- What will the student learn to do, learn to use, etc. -->
-## Learning Objectives
-By the end of this workshop, you will be able to:
-- Learning objective 1
-- Learning objective 2
-- Learning objective 3
-- Learning objective 4
-- You can add more here.
+By the end of this tutorial, you should be able to:
+	- Describe what Python is and how it can be used
+	- Create, modify, and use variables to store and use data
+	- Display textual data to the screen
+	- Understand the different Python built-in data types
+	- Use conditional statements and loops
+    - Create and use functions
 
 <!-- Estimate the time the workshop will take to complete. Feel free to remove this. -->
 ## Duration (optional)
-This module will take around 1 to 2 hours, however feel free to work at your own pace!
+This module will take around 2 to 3 hours, however feel free to work at your own pace!
 
 ## Land Acknowledgement
 We'd like to acknowledge that McMaster University sits on the Territories of the Mississauga and Haudenosaunee Nations, and within the lands protected by the Dish With One Spoon wampum agreement.
