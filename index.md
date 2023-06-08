@@ -15,7 +15,7 @@ Add, edit, or remove any content below for the workshop in question. -->
 <img src="assets/img/titleSlide.png" alt="Workshop Title Slide" width="100%">
 
 <!-- Main header -->
-# Introduction to Python.
+# Introduction to Python
 
 This beginner level workshop will introduce you to the basic concepts of one of the world's most popular programming languages, Python. In this tutorial, you'll learn (learning objectives line). No prior knowledge of Python is required.
 

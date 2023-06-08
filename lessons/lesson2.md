@@ -37,13 +37,38 @@ Rather than just using numbers in our calculator, we can initialize and store th
 
 All variables need identifiying names, more formerly called identifiers.
 
-Before we use variables, we need to talk about Python's rules and restrictions regarding variable names, otherwise known as identifiers.
+Python has some rules and restrictions for identifiers.
 - Identifiers can consist of uppercase letters, lowercase letters, digits, and underscores.
 - Identifiers cannot start with a digit.
 - There are some identifiers reserved for Python's use only, it's usually common keywords like "and", "if", "or", etc.
   - You can find a full list here. https://www.w3schools.com/python/python_ref_keywords.asp
+- Identifiers are case sensitive.
+  - `myVariable` and `MYVARIABLE` are considered two different variables.
 
-question about valid/invalid identifers
+{: .new-title }
+> Exercise                                             <!-- This is where you edit the title -->
+> 
+> Which of the following are valid variable names?
+>
+> - myVariable
+> - _digits
+> - 10_hp
+> - finally
+> - NAME
+>
+> <details>
+>   <summary> See Answer </summary>
+>   <div markdown="1">
+>   {: .note-title }                                   
+> > Answer
+> > 
+> > - myVariable is a valid variable name.
+> > - _digits is a valid variable name.
+> > - 10_hp is **not** a valid variable name because it begins with a digit.
+> > - finally is **not** a valid variable name because it's one of Python's reserved keywords.
+> > - NAME is a valid variable name.
+>   </div>
+> </details>
 
 ## Assigning Values to Variables
 
