@@ -153,6 +153,9 @@ As you can see, to index a string, you have to mention the variable name followe
 {: .important }
 In most programming languages, including Python, the first index starts at 0. If we want to get the 1st character of a string, we need to get the 0th index. If we want to get the 4th character of a string, we need to get the 3rd index.
 
+{: .warning }
+Python will give you an error if you try to access a string index that does not exist. Using `myString = "Hello."` as an example, accessing the 8th index by doing `myString[8]` will give you an error because the 8th index does not exist.
+
 ### Backwards Indexing
 
 You can also index starting from the end of the string by using negative numbers for your index.
