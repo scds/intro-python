@@ -2,7 +2,7 @@
 layout: default
 title: Lesson 3b - Sub-lesson Name
 nav_order: 2
-parent: Lesson 3 - Lesson Name
+parent: Lesson 3 - Data Types
 grand_parent: Lessons
 ---
 
@@ -32,8 +32,34 @@ The following video demonstrates each of the steps outlined below in text.
 [View original here.](https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false)
 
 ## Sub-Topic
+We can also use comparison operators to compare the value of two expressions.
 
-Include a text version of your topic here.
+The six comparison operators are shown in the table below.
+
+| Comparison            | Symbol |
+|-----------------------|:------:|
+| Less than             |    <   |
+| Less than or equal    |   <=   |
+| Greater than          |    >   |
+| Greater than or equal |   >=   |
+| Equality              |    =   |
+| Inequality            |   !=   |
+
+<div class="code-example" markdown="1">
+{: .label }
+Input
+```python
+print(5 < 8)
+print(2 < 1)
+```
+
+{: .label .label-green }
+Output
+```
+True
+False
+```
+</div>
 
 ## Another sub-topic
 

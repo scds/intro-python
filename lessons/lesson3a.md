@@ -33,34 +33,121 @@ The following video demonstrates each of the steps outlined below in text.
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
 [View original here.](https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false) -->
 
+## What Type Am I Working With?
+
+The best way to see what type of data a variable is holding is by using the `type()` function.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+apples = 25      # Integer
+liters = 12.5    # Float (decimal)
+q = 8.4 + 3j     # Complex Numbers
+
+# We can use the print function to display the output of the type() function.
+print(type(myVariable))
+print(type(liters))
+print(type(q))
+```
+
+{: .label .label-green }
+Output
+```
+<class 'int'>
+<class 'float'> 
+<class 'complex'>
+```
+</div>
+
 ## Integers
 
-To see what type of data a variable is holding, we can use the type() function.
-
-<demonstrate type with myVariable>
-
-Integers in Python, unlike other programming languages, don't have a size limit. If you give Python enough memory resources, you could have 1000… with a million zeroes if you desired.
+Integers in Python, unlike other programming languages, don't have a size limit. If you give Python enough memory resources, you could have 1000... with a million zeroes if you desired.
 
 As we mentioned in a previous lesson, we can use math operations on integers. Addition (+), subtraction (-), multiplication (*), division (/), modulus (%), exponentiation (**), and floor division (//). 
 
-Note: Division, regardless of whether it produces an integer value, turns the output into a float value. <demonstration>
+{: .note}
+> Division, regardless of whether it produces an integer value, turns the output into a float value. 
+> 
+> <div class="code-example" markdown="1">
+> {: .label }
+> Input
+> ```python
+> a = 6
+> b = 2
+> print(type(a))
+> print(type(b))
+> 
+> c = a / b       # This is 6/2, which should become 3 
+> print(c)
+> print(type(c))
+> ```
+> 
+> {: .label .label-green }
+> Output
+> ```
+> <class 'int'>
+> <class 'int'>
+> 3.0
+> <class 'float'>
+> ```
+> </div>
+>
+> Despite it being 3, the output becomes 3.0, making it a float.
 
-We can also use comparison operators to compare the value of two expressions.
+## Floats
 
-The six comparison operators are:
+Floats refer to the real number set; integers and decimals. However, it's important to note that floats are approximations (they're only accurate to 7 decimal places.) Floats are great for most use cases, but they shouldn't be used when exact precision is required.
 
-Less than	<
-Less than or equal	<=
-Greater than	>
-Greater than or equal	>=
-Equality	==
-Inequality	!=
-TABLE TODO
+<div class="code-example" markdown="1">
 
-TODO
+{: .label }
+Input
+```python
+# This should add up to 1.0
+0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1
+```
+
+{: .label .label-green }
+Output
+```
+0.9999999999999999
+```
+</div>
+
+You can also use scientific notation for numbers. 
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+G = 6.67430e-11
+print(G)
+
+g = 0.0000000000667430
+print(g)
+```
+
+{: .label .label-green }
+Output
+```
+6.6743e-11
+6.6743e-11a
+```
+</div>
+
+## Complex Numbers
+
+Python supports complex numbers, but they're not often used.
+
+```python
+# The imaginary number i is represented by the letter j in Python.
+z = 3 + 1j
+```
+
+There are some interesting functions available for use with complex numbers that are supported by Python. If you're interested, an in-depth tutorial on complex numbers [can be found here.](https://realpython.com/python-complex-numbers/#getting-to-know-python-complex-numbers)
 
 ## Key Points / Summary
 TODO
-
-## Additional Resources
-TODO?

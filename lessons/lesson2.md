@@ -72,27 +72,134 @@ Python has some rules and restrictions for identifiers.
 
 ## Assigning Values to Variables
 
-The format to initialize a variable is
+To create a variable in Python, we need to use this format:
 
-<identifier> = <value>
+```python
+identifier = value
+```
 
 Suppose we wanted to assign "myVariable" the value of 10. We would do
 
+```python
 myVariable = 10
+```
 
-If we decide later on that we want to reassign the value of "myVariable" to something else, we would again just do
+The line above is read as "myVariable is assigned the value of 10."
 
+If we decide later on that we want to reassign the value of "myVariable" to something else, we would again do
+
+```python
 myVariable = <new value>
+```
 
 and that would set the value of myVariable to our new value.
 
+{: .new-title }
+> Exercise                                             <!-- This is where you edit the title -->
+> 
+> What is the value of `a` after this code is executed?
+>
+> ```python
+> a = 5
+> b = 10
+> a = b
+> b = 2
+> ```
+> 
+> <details>
+>   <summary> See Answer </summary>
+>   <div markdown="1">
+>   {: .note-title }                                   
+> > Answer
+> > 
+> > The value of a is 10.
+> > 
+> > - Going step-by-step, **a** is assigned the value of 5.     (a = 5)  
+> > - Then, **b** is assigned the value of 10.                  (a = 5, b = 10)  
+> > - **a** is assigned the value of **b**, which is 10.            (a = 10, b = 10)  
+> > - Finally, **b** is assigned the value of 2.                (a = 10, b = 2)
+>   </div>
+> </details>
+
 ## Using Variables in Math
 
-Alright, perfect, now we have a variable with some value set to it. How do we use it in our math? Let's say, for some reason, we wanted to find out the value of myVariable if we add 100 to it. We can just do
+Perfect, now we have a variable with some value set to it. How do we use it in our math? Let's say, for some reason, we wanted to find out the value of myVariable if we add 100 to it. We can just do
 
+```python
 100 + myVariable
+```
 
-and it'll output the answer.
+and it outputs the answer.
+
+## Displaying Data to the Console
+
+Take a look at the code below.
+
+```python
+50 * 0.9
+50 * 0.5
+```
+
+What do you think will be shown if we ran both lines at the same time? After trying it out, you'll discover that it only outputs the answer of one of the lines. That's because Python will only show you the last line that has data.
+
+If we want to display more data to the screen, we have to use the `print()` function to "print" it to the console.
+
+<div class="code-example" markdown="1">
+{: .label }
+Input
+```python
+print(50 * 0.9)
+print(50 * 0.5)
+```
+
+{: .label .label-green }
+Output
+```
+45
+25
+```
+</div>
+
+## Writing Comments in your Code
+
+Sometimes, it's useful to write yourself (or others) comments about your code. They can be used to explain pieces of code, and generally makes the code more readable.
+
+Python considers everything after a `#` symbol a comment, and ignores it when executing the code.
+
+<div class="code-example" markdown="1">
+{: .label }
+Input
+```python
+# print() displays information to the screen.
+print(50 * 0.9)
+print(50 * 0.5)
+```
+
+{: .label .label-green }
+Output
+```
+45
+25
+```
+</div>
+
+Since Python ignores comments, you can also use it to disable lines of code from being executed. This is particularly useful when troubleshooting issues with your code.
+
+<div class="code-example" markdown="1">
+{: .label }
+Input
+```python
+# print() displays information to the screen.
+# print(50 * 0.9)
+print(50 * 0.5)
+```
+
+{: .label .label-green }
+Output
+```
+25
+```
+</div>
 
 ## Key Points / Summary
 TODO
