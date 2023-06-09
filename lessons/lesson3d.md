@@ -255,6 +255,45 @@ Output
 {: .note }
 The `remove()` function will only remove the first occurrence of a value.
 
+### List Concatenation and Repitition
+
+Just like strings, we can concatenate and repeat lists.
+
+#### Concatenation
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+myList = [1, 2.0, 3, "hello", 2]
+myList2 = [5, 2, 1]
+print(myList + myList2)
+```
+
+{: .label .label-green }
+Output
+```
+[1, 2.0, "hello", 2, 5, 2, 1]
+```
+</div>
+
+#### Repitition
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+myList = [1, 2]
+print(myList * 3)
+```
+
+{: .label .label-green }
+Output
+```
+[1, 2, 1, 2, 1, 2]
+```
+</div>
+
 ### Other Useful List Functions
 
 If you want to find what the index of a particular value, you can use the `index()` function.
