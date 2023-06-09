@@ -259,15 +259,71 @@ True
 ```
 </div>
 
-## Another sub-topic
+## Converting Variables to Strings
+The `str()` function converts a variable into a string. 
 
-Include text here.
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+testScore = 18/24*100
+
+# str(testScore) turns the test score into a string, and appends it into a sentence. 
+print("Your test score was " + str(testScore) + "%.")
+```
+
+{: .label .label-green }
+Output
+```
+Your test score was 75.0%.
+```
+</div>
+
+## String Formatting
+Another way to insert variables into strings is by using the `format()` function.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+numerator = 18
+denominator = 24
+
+print("Your test score was {}/{}.".format(numerator, denominator))
+```
+
+{: .label .label-green }
+Output
+```
+Your test score was 18/24.
+```
+</div>
+
+The `format()` function has a lot of other cool functionalities, [which can be found here.](https://www.w3schools.com/python/ref_string_format.asp)
+
+You can also accomplish the same thing by adding the letter `f` at the start of the string, before the surrounding brackets.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+testScore = 18/24*100
+
+print(f"Your test score was {testScore}%.")
+```
+
+{: .label .label-green }
+Output
+```
+Your test score was 75.0%.
+```
+</div>
 
 ## Key Points / Summary
 
 - Remind the student about what they just learned.
 - You can also note down any key information to keep in mind.
 
-## Additional Resources (optional)
-
-- Here, you can list some additional resources the student can access to learn more about this lesson.
