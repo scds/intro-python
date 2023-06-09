@@ -333,6 +333,60 @@ Output
 ```
 </div>
 
+## Tuples
+
+Tuples are similar to lists in a lot of ways. Tuples are also containers that store ordered data, and they index and slice the exact same way as lists too.
+
+What makes tuples unique is that, once they're created, they can't be modified. This means that you can't add or remove new elements to a tuple. To do so would mean to create a duplicate tuple with the new changes.
+
+Tuples are less commonly used because of this trait, however it does speeds up some computational processes.
+
+To create a tuple, you use round brackets ( ) rather than square brackets [ ].
+
+```python
+myTuple = (1, 2, 3, 4)
+```
+
+{: .note }
+> If a tuple contains only one object, you need to include a comma inside the brackets. If you don't, Python will see the brackets as indicating the order of operations.
+> 
+> ```python
+> myTuple = (1,)
+> ```
+
+## Sets
+
+Sets are also similar to lists in a few ways. They are also containers that store data, and this container **can** be modified (meaning you can add and remove elements). Sets however are not ordered, and they do not allow for duplicate elements (much like mathematical sets).
+
+To create a set, you use curly brackets { }.
+
+```python
+mySet = {1, 2, 3, 4}
+```
+
+Since sets are unordered, you can't slice or index them. There isn't a "first" or "second" element in a set.
+
+The most common use-case for a set is to remove duplicate elements from a list. You can turn a list into a set by using the `set()` function, and similarly, you can turn a set into a list using the `list()` function.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+myList = [1, 2, 5, 2, 2, 4, 2, 4, 6, 4]
+
+mySet = set(myList)
+
+print(mySet)
+```
+
+{: .label .label-green }
+Output
+```
+{1, 2, 4, 5, 6}
+```
+</div>
+
 
 ## Key Points / Summary
 
