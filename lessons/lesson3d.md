@@ -426,6 +426,31 @@ Output
 ```
 </div>
 
+## Dictionaries
+
+Dictionaries are the most distinct of all the containers. They consist of "key-value pairs". Rather than using index numbers to index values in the list, dictionaries use "keys" for indexing. They work very similarly to dictionaries in real life. The key would be the word, whereas the value would be the definition. To find the definition of a word, you need to search the dictionary for its key (the word itself). See the code below for an example.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+myDict = {"x": 1, "y": 3, "z": -2}
+print(myDict["x"])
+print(myDict["z"])
+```
+
+{: .label .label-green }
+Output
+```
+1
+-2
+```
+</div>
+
+Dictionaries are defined similarly to sets, using curly braces { }. However, because they consist of key-value pairs, the curly braces contain \<key\>: \<value\> "objects". After the dictionary is created, you can access any of the values by referencing its key. We defined "x" to have a value of 1, so when we index "x" in the print statements later on, we get back 1.
+
+Just like sets, dictionaries cannot contain duplicate keys (they can however contain duplicate values.) 
 
 ## Key Points / Summary
 
