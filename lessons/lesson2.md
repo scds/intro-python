@@ -8,7 +8,7 @@ parent: Lessons
 {: .no_toc}  
 # Lesson 2 - Storing and Displaying Data
 
-You may have noticed that Python will only output the last expression in the program. In this lesson, you will learn how to display more data to the screen, as well as how to store data in variables.
+You may have noticed that Python will only output the last expression in the program. In this lesson, you will learn how to display more data to the screen as well as how to store data in variables.
 
 <details markdown="block">
   <summary>
@@ -22,6 +22,7 @@ You may have noticed that Python will only output the last expression in the pro
 ## Lesson Objectives
 - Use variables to store data
 - Print data to the console
+- Use comments to make notes in our program
 
 <!-- ## Lesson Video
 The following video demonstrates each of the steps outlined below in text.
@@ -31,18 +32,18 @@ The following video demonstrates each of the steps outlined below in text.
 
 ## Variables
 
-Rather than just using numbers in our calculator, we can initialize and store the number in a variable. With variables, we'll be able to store our data, but then we can also re-use it and even modify that data later on.
+Rather than just using numbers in our calculator, we can initialize and store the number in a variable. With variables, we'll be able to store our data, but we can also re-use it and even modify that data later on.
 
 ## Identifier Rules
 
-All variables need identifiying names, more formerly called identifiers.
+All variables need identifying names, more formerly called identifiers.
 
 Python has some rules and restrictions for identifiers.
 - Identifiers can consist of uppercase letters, lowercase letters, digits, and underscores.
 - Identifiers cannot start with a digit.
-- There are some identifiers reserved for Python's use only, it's usually common keywords like "and", "if", "or", etc.
-  - You can find a full list here. https://www.w3schools.com/python/python_ref_keywords.asp
-- Identifiers are case sensitive.
+- There are some identifiers reserved for Python's use only; they're usually common keywords like "and", "if", "or", etc.
+  - You can find a full list here: <https://www.w3schools.com/python/python_ref_keywords.asp>
+- Identifiers are case-sensitive.
   - `myVariable` and `MYVARIABLE` are considered two different variables.
 
 {: .new-title }
@@ -72,32 +73,32 @@ Python has some rules and restrictions for identifiers.
 
 ## Assigning Values to Variables
 
-To create a variable in Python, we need to use this format:
+The format to create a variable is:
 
 ```python
 identifier = value
 ```
 
-Suppose we wanted to assign "myVariable" the value of 10. We would do
+Suppose we wanted to assign `myVariable` the value of 10. We would do
 
 ```python
 myVariable = 10
 ```
 
-The line above is read as "myVariable is assigned the value of 10."
+The line above is read as "`myVariable` is assigned the value of 10."
 
-If we decide later on that we want to reassign the value of "myVariable" to something else, we would again do
+If we decide later on that we want to reassign the value of `myVariable` to something else, we would again do
 
 ```python
 myVariable = <new value>
 ```
 
-and that would set the value of myVariable to our new value.
+and that would set the value of `myVariable` to our new value.
 
 {: .new-title }
 > Exercise                                             <!-- This is where you edit the title -->
 > 
-> What is the value of `a` after this code is executed?
+> What is the value of **a** after this code is executed?
 >
 > ```python
 > a = 5
@@ -112,7 +113,7 @@ and that would set the value of myVariable to our new value.
 >   {: .note-title }                                   
 > > Answer
 > > 
-> > The value of a is 10.
+> > The value of **a** is 10.
 > > 
 > > - Going step-by-step, **a** is assigned the value of 5.     (a = 5)  
 > > - Then, **b** is assigned the value of 10.                  (a = 5, b = 10)  
@@ -133,14 +134,14 @@ and it outputs the answer.
 
 ## Displaying Data to the Console
 
-Take a look at the code below.
+Take a look at the code block below.
 
 ```python
 50 * 0.9
 50 * 0.5
 ```
 
-What do you think will be shown if we ran both lines at the same time? After trying it out, you'll discover that it only outputs the answer of one of the lines. That's because Python will only show you the last line that has data.
+What do you think will be shown if we run both lines in the same code block? After trying it out, you'll discover that it only outputs the answer of one of the lines. That's because Python will only show you the last line that returns data.
 
 If we want to display more data to the screen, we have to use the `print()` function to "print" it to the console.
 
@@ -162,9 +163,9 @@ Output
 
 ## Writing Comments in your Code
 
-Sometimes, it's useful to write yourself (or others) comments about your code. They can be used to explain pieces of code, and generally makes the code more readable.
+Sometimes, it's useful to write yourself (or others) comments about your code. They can be used to explain pieces of code, and generally, they make the code more readable.
 
-Python considers everything after a `#` symbol a comment, and ignores it when executing the code.
+Python considers everything after a `#` symbol a comment and ignores it when executing the code.
 
 <div class="code-example" markdown="1">
 {: .label }
@@ -183,7 +184,7 @@ Output
 ```
 </div>
 
-Since Python ignores comments, you can also use it to disable lines of code from being executed. This is particularly useful when troubleshooting issues with your code.
+Since Python ignores comments, you can also use it to prevent lines of code from being executed. This is particularly useful when troubleshooting issues with your code.
 
 <div class="code-example" markdown="1">
 {: .label }
@@ -202,4 +203,6 @@ Output
 </div>
 
 ## Key Points / Summary
-TODO
+- You can use variables to store data
+- The `print()` function can print data to the console
+- You can use comments to document and explain your code

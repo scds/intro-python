@@ -8,7 +8,7 @@ parent: Lessons
 {: .no_toc}  
 # Lesson 1 - Using Python as a Calculator
 
-The simplest thing we can do with Python is to use it as a calculator. Addition, subtraction, multiplication, you name it!
+The simplest thing we can do with Python is use it as a calculator. Addition, subtraction, multiplication -  you name it!
 
 <details markdown="block">
   <summary>
@@ -31,7 +31,7 @@ The following video demonstrates each of the steps outlined below in text.
 
 ## Math Operations
 
-Using Python as a calculator works exactly as you think it does.
+Using Python as a calculator works exactly as you think it should.
 
 <div class="code-example" Markdown="1">
 {: .label }
@@ -49,7 +49,7 @@ Output
 
 By default, Python supports addition (+), subtraction (-), multiplication (*), division (/), modulus (%), exponentiation (**), and floored division (//). 
 
-If there are multiple operations in the same line, it follows the order of operations outlined in the table below. Operations at the top have a higher precedence. Rows with multiple operations have equal precedence, and are evaluated from left to right in the expression.
+If there are multiple operations in the same line, they follow the order of operations outlined in the table below. Operations at the top have higher precedence. Rows with multiple operations have equal precedence and are evaluated from left to right in the expression.
 
 <!-- https://www.tablesgenerator.com/markdown_tables -->
 
@@ -72,9 +72,19 @@ Output
 ```
 13
 ```
+
+{: .important-title }
+> Tip
+>
+> To use a square root, put the value to the exponent of 0.5.
+>
+> ```python
+> 16 ** 0.5
+> ```
+
 </div>
 
-Although we've only been using integers for our math, Python supports decimal numbers, as well as complex numbers. We'll briefly talk about complex numbers later in [Lesson 3a.](lesson3a)
+Although we've only been using integers for our math, Python supports decimal numbers as well as complex numbers. We'll briefly talk about complex numbers later in [Lesson 3a.](lesson3a)
 
 <div class="code-example" Markdown="1">
 {: .label }
@@ -112,10 +122,10 @@ Output
 
 The first line, `import math`, tells Python to include some math functions that are not included by default.
 
-In the second line, we're using the `cos()` function from the `math` library. Since `cos()` only needs 1 input value, we put it inside the brackets.
+In the second line, we're using the `cos()` function from the `math` library. Since `cos()` only needs one input value, we put it inside the brackets.
 
 A full list of functions and values that the math library provides can be found here: <https://www.w3schools.com/python/module_math.asp>.
 
 ## Key Points / Summary
 - You can use Python as a calculator.
-- To get access to more math functions, you can use the math library.
+- To get access to more math functions, you have to `import` the math library.
