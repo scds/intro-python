@@ -21,9 +21,10 @@ Another one of Python's built-in data types are strings. Strings represent a seq
 </details>
 
 ## Lesson Objectives
-- A learning objective.
-- Second learning objective.
-- Another learning objective.
+- Learn about strings
+- Explore some of the operations and functions Python has to offer for strings.
+- Convert variables into strings.
+- Format strings for more informative `print()` output.
 
 <!-- ## Lesson Video
 The following video demonstrates each of the steps outlined below in text.
@@ -96,7 +97,7 @@ abcabcabcabcabc
 ```
 </div>
 
-## String Operations 
+## String Operations and Functions
 
 ### Length of a String
 Before we get to indexing and slicing strings, let's briefly mention the `len()` function. It returns the number of characters in a string.
@@ -239,8 +240,12 @@ Hlo
 Using membership checking, we can check if a string is part of another string.
 
 There are two operators for Membership Checking.
-- **in**. Checks if a string **is** part of another string.
-- **not in**. Checks if a string **is not** part of another string.
+
+in
+: Checks if a string **is** part of another string.
+
+not in
+: Checks if a string **is not** part of another string.
 
 <div class="code-example" markdown="1">
 
@@ -306,7 +311,7 @@ Your test score was 18/24.
 
 The `format()` function has a lot of other cool functionalities, [which can be found here.](https://www.w3schools.com/python/ref_string_format.asp)
 
-You can also accomplish the same thing by adding the letter `f` at the start of the string, before the surrounding brackets.
+You can also accomplish the same thing by adding the letter `f` at the start of the string, before the surrounding quotes.
 
 <div class="code-example" markdown="1">
 
@@ -327,6 +332,6 @@ Your test score was 75.0%.
 
 ## Key Points / Summary
 
-- Remind the student about what they just learned.
-- You can also note down any key information to keep in mind.
-
+- Strings are sequences of characters.
+- The first character in a string is at index 0.
+- You can convert variables into strings.

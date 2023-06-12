@@ -8,7 +8,9 @@ grand_parent: Lessons
 
 {: .no_toc}  
 # Lesson 3d - Containers
-Suppose we had to keep track of the class average. We can't just make a variable for each mark, because there could be dozens, maybe hundreds of marks to store. This is where containers come in.
+Suppose we had to keep track of the class average. We can’t just make a variable for each mark because there could be dozens, maybe hundreds, of marks to store. This is where containers come in.
+
+Containers can hold an arbitrary amount of data. There are different kinds of containers, and we’ll be going over four of them today. Lists, tuples, sets, and dictionaries.
 
 <details markdown="block">
   <summary>
@@ -20,9 +22,9 @@ Suppose we had to keep track of the class average. We can't just make a variable
 </details>
 
 ## Lesson Objectives
-- A learning objective.
-- Second learning objective.
-- Another learning objective.
+- Use containers to store data.
+- Learn the differences between lists, tuples, sets, and dictionaries.
+- Use the `help()` function to discover more functions.
 
 <!-- ## Lesson Video
 The following video demonstrates each of the steps outlined below in text.
@@ -30,20 +32,15 @@ The following video demonstrates each of the steps outlined below in text.
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
 [View original here.](https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false) -->
 
-## Containers
-Suppose we had to keep track of the class average. We can't just make a variable for each mark, because there could be dozens, maybe hundreds of marks to store. This is where containers come in.
-
-Containers can hold an arbitrary amount of data. There are different kinds of containers, and we'll be going over 4 of them today. Lists, tuples, sets, and dictionaries.
-
 ## Lists
 Lists are the most common type of container because of their ease of use.
 
-They can hold any number of objects, which can also change throughout the program. This means that we can add and remove data to the list after its initial declaration.
+They can hold any number of objects, which can also change throughout the program. This means that we can add and remove data from the list after its initial declaration. 
 
 The contents of a list are also ordered.
 
 {: .note }
-> In the context of containers, for a container to be ordered means that there's always a "first" element, followed by a "next" element.
+> In the context of containers, for a container to be ordered, there's always a "first" element, followed by a "next" element.
 > 
 > It **does not** mean that it sorts the data.
 
@@ -76,7 +73,7 @@ Output
 
 ### List Indexing
 
-You can also access a particular index of a list using the square bracket notation we used when working with strings.
+You can also access a particular index of a list using the square bracket notation we use when working with strings.
 
 <div class="code-example" markdown="1">
 
@@ -152,6 +149,42 @@ myList[0][2]
 > > `myList[1]` will give us `["a", "b", "c"]`. Since we want the `"b"`, we need to index again, adding another `[1]` to it. This leaves us with `myList[1][1]`.
 >   </div>
 > </details>
+
+### Dot Notation for Functions
+
+Unlike all of the functions we've used before, the following couple functions have a different syntax. You'll see that it follows the following format:
+
+```python
+variable.function()
+```
+
+Functions that follow the dot notation above are unique to that particular data type. In this case, `append()` will only work on lists.
+
+To get a full list of dot notation functions for any variable and data type, use the `help()` function.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+myList = [1, 2, 3, 4]
+help(myList)
+```
+
+{: .label .label-green }
+Output
+```
+Help on list object:
+
+class list(object)
+ |  list(iterable=(), /)
+ |  
+ |  Built-in mutable sequence.
+...
+```
+
+**Output is too large to put here, try it out in your Python interpreter!**
+</div>
 
 ### Adding Elements to a List
 
@@ -255,7 +288,7 @@ Output
 {: .note }
 The `remove()` function will only remove the first occurrence of a value.
 
-### List Concatenation and Repitition
+### List Concatenation and Repetition
 
 Just like strings, we can concatenate and repeat lists.
 
@@ -277,7 +310,7 @@ Output
 ```
 </div>
 
-#### Repitition
+#### Repetition
 <div class="code-example" markdown="1">
 
 {: .label }
@@ -313,6 +346,9 @@ Output
 2
 ```
 </div>
+
+{: .note}
+Just like the `remove()` function, `index()` will only find the first occurrence of a value.
 
 If you want to find the amount of times a particular value appears in a list, you can use the `count()` function.
 
@@ -374,11 +410,11 @@ Output
 
 ## Tuples
 
-Tuples are similar to lists in a lot of ways. Tuples are also containers that store ordered data, and they index and slice the exact same way as lists too.
+Tuples are similar to lists in a lot of ways. Tuples are also containers that store ordered data, and they index and slice the exact same way as lists.
 
-What makes tuples unique is that, once they're created, they can't be modified. This means that you can't add or remove new elements to a tuple. To do so would mean to create a duplicate tuple with the new changes.
+What makes tuples unique is that, once they’re created, they can’t be modified. This means that you can’t add or remove new elements from a tuple. To do so would mean creating a duplicate tuple with the new changes.
 
-Tuples are less commonly used because of this trait, however it does speeds up some computational processes.
+Tuples are less commonly used because of this trait, but it does speed up some computational processes.
 
 To create a tuple, you use round brackets ( ) rather than square brackets [ ].
 
@@ -395,7 +431,7 @@ myTuple = (1, 2, 3, 4)
 
 ## Sets
 
-Sets are also similar to lists in a few ways. They are also containers that store data, and this container **can** be modified (meaning you can add and remove elements). Sets however are not ordered, and they do not allow for duplicate elements (much like mathematical sets).
+Sets are also similar to lists in a few ways. They are also containers that store data, and this container **can** be modified (meaning you can add and remove elements). Sets, however, are not ordered and they do not allow for duplicate elements (much like mathematical sets).
 
 To create a set, you use curly brackets { }.
 
@@ -428,7 +464,9 @@ Output
 
 ## Dictionaries
 
-Dictionaries are the most distinct of all the containers. They consist of "key-value pairs". Rather than using index numbers to index values in the list, dictionaries use "keys" for indexing. They work very similarly to dictionaries in real life. The key would be the word, whereas the value would be the definition. To find the definition of a word, you need to search the dictionary for its key (the word itself). See the code below for an example.
+Dictionaries are the most distinct of all the containers. They consist of "key-value pairs". Rather than using index numbers to index values in the list, dictionaries use "keys" for indexing. 
+
+They work very similarly to dictionaries in real life. The key would be the word, whereas the value would be the definition. To find the definition of a word, you need to search the dictionary for its key (the word itself). See the code below for an example.
 
 <div class="code-example" markdown="1">
 
@@ -448,15 +486,12 @@ Output
 ```
 </div>
 
-Dictionaries are defined similarly to sets, using curly braces { }. However, because they consist of key-value pairs, the curly braces contain \<key\>: \<value\> "objects". After the dictionary is created, you can access any of the values by referencing its key. We defined "x" to have a value of 1, so when we index "x" in the print statements later on, we get back 1.
+Dictionaries are defined similarly to sets, using curly braces { }. However, because they consist of key-value pairs, the curly braces contain `<key>: <value>` "objects". After the dictionary is created, you can access any of the values by referencing its key. We defined "x" to have a value of 1, so when we index "x" in the print statements later on, we get back 1.
 
 Just like sets, dictionaries cannot contain duplicate keys (they can however contain duplicate values.) 
 
 ## Key Points / Summary
 
-- Remind the student about what they just learned.
-- You can also note down any key information to keep in mind.
-
-## Additional Resources (optional)
-
-- Here, you can list some additional resources the student can access to learn more about this lesson.
+- Containers store multiple "cells" of data.
+- Lists, tuples, sets, and dictionaries are all containers.
+- You can use the `help()` function to list out all functions unique to a particular data type.

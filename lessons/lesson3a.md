@@ -25,8 +25,8 @@ In this lesson, we'll be working further with numbers. Python separates numbers 
 </details>
 
 ## Lesson Objectives
-- Use the `type()` function to see data types
-- Explore the differences between integers, floats, and complex numbers
+- Use the `type()` function to see data types.
+- Explore the differences between integers, floats, and complex numbers.
 
 <!-- ## Lesson Video
 The following video demonstrates each of the steps outlined below in text.

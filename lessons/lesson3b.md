@@ -21,9 +21,9 @@ Booleans are one of the simplest data types. It consists entirely of "True" and 
 </details>
 
 ## Lesson Objectives
-- Learn what a boolean is
-- Use boolean operators
-- Compare numerical values
+- Learn what booleans are.
+- Use boolean operators.
+- Compare numerical values.
 
 <!-- ## Lesson Video
 The following video demonstrates each of the steps outlined below in text.

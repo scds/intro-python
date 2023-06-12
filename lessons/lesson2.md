@@ -20,9 +20,9 @@ You may have noticed that Python will only output the last expression in the pro
 </details>
 
 ## Lesson Objectives
-- Use variables to store data
-- Print data to the console
-- Use comments to make notes in our program
+- Use variables to store data.
+- Print data to the console.
+- Use comments to make notes in our program.
 
 <!-- ## Lesson Video
 The following video demonstrates each of the steps outlined below in text.
