@@ -21,9 +21,9 @@ Booleans are one of the simplest data types. It consists entirely of "True" and 
 </details>
 
 ## Lesson Objectives
-- A learning objective.
-- Second learning objective.
-- Another learning objective.
+- Learn what a boolean is
+- Use boolean operators
+- Compare numerical values
 
 <!-- ## Lesson Video
 The following video demonstrates each of the steps outlined below in text.
@@ -33,16 +33,14 @@ The following video demonstrates each of the steps outlined below in text.
 
 ## What's a Boolean?
 
-Named after George Boole, a boolean is a value that is either true or false. It's most commonly used in logic.
-
-In Python, it's useful for creating conditional statements and loops, which we'll talk about in [lesson 4](lesson4).
+Named after George Boole, a boolean is a value that is either true or false. It's most commonly used in logic. In Python, it's useful for creating conditional statements and loops, which we'll talk about in [lesson 4](lesson4).
 
 ## Creating a Boolean Value
 
 In Python, declaring a boolean value is similar to declaring a number. Rather than using a numerical constant, you need to use `True` or `False`.
 
 {: .note }
-Make sure it's capitalized!
+Make sure `True` and `False` are capitalized!
 
 <div class="code-example" markdown="1">
 
@@ -183,5 +181,6 @@ True
 
 ## Key Points / Summary
 
-- Remind the student about what they just learned.
-- You can also note down any key information to keep in mind.
+- A boolean is a True/False value.
+- `and`, `or`, and `not` are three boolean operators.
+- You can compare numerical values.

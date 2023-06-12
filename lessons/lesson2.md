@@ -203,6 +203,6 @@ Output
 </div>
 
 ## Key Points / Summary
-- You can use variables to store data
-- The `print()` function can print data to the console
-- You can use comments to document and explain your code
+- You can use variables to store data.
+- The `print()` function can print data to the console.
+- You can use comments to document and explain your code.

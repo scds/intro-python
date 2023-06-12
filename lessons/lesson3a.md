@@ -25,7 +25,8 @@ In this lesson, we'll be working further with numbers. Python separates numbers 
 </details>
 
 ## Lesson Objectives
-TODO
+- Use the `type()` function to see data types
+- Explore the differences between integers, floats, and complex numbers
 
 <!-- ## Lesson Video
 The following video demonstrates each of the steps outlined below in text.
@@ -33,7 +34,7 @@ The following video demonstrates each of the steps outlined below in text.
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
 [View original here.](https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false) -->
 
-## What Type Am I Working With?
+## What Data Type Am I Working With?
 
 The best way to see what type of data a variable is holding is by using the `type()` function.
 
@@ -98,7 +99,7 @@ As we mentioned in a previous lesson, we can use math operations on integers. Ad
 
 ## Floats
 
-Floats refer to the real number set; integers and decimals. However, it's important to note that floats are approximations (they're only accurate to 7 decimal places.) Floats are great for most use cases, but they shouldn't be used when exact precision is required.
+Floats refer to the real number set; integers and decimals. However, it's important to note that floats are approximations (they're only accurate to 7 decimal places). Floats are great for most use cases, but they shouldn't be used when exact precision is required.
 
 <div class="code-example" markdown="1">
 
@@ -150,4 +151,6 @@ z = 3 + 1j
 There are some interesting functions available for use with complex numbers that are supported by Python. If you're interested, an in-depth tutorial on complex numbers [can be found here.](https://realpython.com/python-complex-numbers/#getting-to-know-python-complex-numbers)
 
 ## Key Points / Summary
-TODO
+- You can use the `type()` function to inspect the data type of a variable.
+- Floats are only approximations of decimal numbers and they can lead to rounding errors.
+- Integers, floats, and complex numbers are the different number types Python supports.
