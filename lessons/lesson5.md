@@ -8,7 +8,7 @@ parent: Lessons
 {: .no_toc}  
 # Lesson 5 - Functions
 
-In the previous lessons, we've used lots of functions like `print()`, `range()`, and `sort()`. Functions are used to reuse lines of code. Aside from the pre-defined functions, you can also create your own functions.
+In the previous lessons, we've used lots of functions like `print()`, `range()`, and `sort()`. Functions allow for the ability to reuse code. Aside from the pre-defined functions, you can also create your own functions.
 
 <details markdown="block">
   <summary>
@@ -20,9 +20,8 @@ In the previous lessons, we've used lots of functions like `print()`, `range()`,
 </details>
 
 ## Lesson Objectives
-- A learning objective.
-- Second learning objective.
-- Another learning objective.
+- Creating and using functions.
+- Understanding the difference between parameters and arguments.
 
 <!-- ## Lesson Video
 The following video demonstrates each of the steps outlined below in text.
@@ -48,8 +47,9 @@ As we've already done with other functions, we can call functions using the func
 {: .label }
 Input
 ```python
+# Any lines of code inside the function will only run when the function is called
 def myFunction():
-  print("Hello!")
+  print("Hello!") 
 
 myFunction()
 ```
@@ -63,7 +63,7 @@ Hello!
 
 ## Function Arguments
 
-We can pass data into functions as arguments. Inside the function, these arguments are assigned as a variable which you can use in your code.
+We can pass data into functions as arguments. Inside the function, these arguments are assigned to a variable which you can use in your code.
 
 <div class="code-example" markdown="1">
 
@@ -204,9 +204,6 @@ def quadraticFormula(a, b, c):
 
 ## Key Points / Summary
 
-- Remind the student about what they just learned.
-- You can also note down any key information to keep in mind.
+- You can create reusable pieces of code using functions.
+- Parameters are the variables inside the function declaration, whereas arguments are the values passed to the function.
 
-## Additional Resources (optional)
-
-- Here, you can list some additional resources the student can access to learn more about this lesson.

@@ -231,6 +231,9 @@ line3
 
 The code above would run line1 and line2 repeatedly until the `expression` is `False`. You can easily run into an infinite loop if you forget about the expression. For the loop to terminate, a part of the code inside the while loop has to modify the expression in some way.
 
+{: .note } 
+Just like `if` statements, code inside `while` loops needs to be indented. 
+
 {: .new-title }
 > Exercise                                             <!-- This is where you edit the title -->
 > 
@@ -267,6 +270,9 @@ for x in [1,2,3]:
 ```
 
 In the code block above, line1 will execute 3 times. Every time a new loop starts, `x` is set to the value of the current iterable, meaning that we can use `x` as part of our code.
+
+{: .note } 
+Code inside `for` loops also needs to be indented. 
 
 <div class="code-example" markdown="1">
 
