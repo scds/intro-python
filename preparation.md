@@ -18,6 +18,9 @@ An example is provided below.
 
 For this workshop, you will need access to a Python interpreter. We provide 3 tools below, you may use whatever works for you best.
 
+{: .warning}
+Please only choose **one** of the tools below.
+
 ## 1. Jupyter Notebook (recommended)
 - Jupyter Notebook is a web-based Python interpreter. McMaster members should have automatic access to this tool. If you don't have access to Jupyter Notebook, two other alternatives are provided below.
 - Simply navigate to <https://mcmaster.syzygy.ca/> and sign in with your McMaster account.

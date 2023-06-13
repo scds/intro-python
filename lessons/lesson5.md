@@ -192,6 +192,26 @@ The two roots of x^2 + 5x + 6 are -2.0 and -3.0.
 ```
 </div>
 
+{: .new-title }
+> Exercise                                             <!-- This is where you edit the title -->
+> 
+> Try creating a function with a "number" parameter. The function should return that number multiplied by 2.
+>
+>
+> <details>
+>   <summary> See Answer </summary>
+>   <div markdown="1">
+>   {: .note-title }                                   
+> > Answer
+> >
+> > ```py
+> > def multiplyBy2(number):
+> >   newNumber = number * 2
+> >   return newNumber
+> > ```
+>   </div>
+> </details>
+
 ## Empty Functions
 
 If you want to leave a function blank and come back to work on it later, Python won't let you. As mentioned in [lesson 4](lesson4) with control structures, you have to use a `pass` statement.

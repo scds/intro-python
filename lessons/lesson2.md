@@ -132,6 +132,50 @@ Perfect, now we have a variable with some value set to it. How do we use it in o
 
 and it outputs the answer.
 
+## Adding to a Variable
+
+When updating the value of a variable, you can use the existing value as part of the expression.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+a = 5
+
+a = a + 1
+a
+```
+
+{: .label .label-green }
+Output
+```
+6
+```
+</div>
+
+Another way to do the same step is the following:
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+a = 5
+
+a += 1
+a
+```
+
+{: .label .label-green }
+Output
+```
+6
+```
+</div>
+
+This works for `+=`, `-=`, `*=`, and `/=`.
+
 ## Displaying Data to the Console
 
 Take a look at the code block below.
@@ -146,6 +190,7 @@ What do you think will be shown if we run both lines in the same code block? Aft
 If we want to display more data to the screen, we have to use the `print()` function to "print" it to the console.
 
 <div class="code-example" markdown="1">
+
 {: .label }
 Input
 ```python

@@ -55,6 +55,27 @@ Hello, World!
 ```
 </div>
 
+## Using Quotations Inside Strings
+
+If you need to use single quotes ' ', use double quotes " " to define the string.
+
+```py
+myString = "I'm happy!"
+```
+
+If you need to use double quotes " ", use single quotes ' ' to define the string.
+
+```py
+myString = 'He said "hello".'
+```
+
+If you need to use both single quotes ' ' and double quotes " ", you need to put a backslash \ before every quotation you defined the string with.
+
+```py
+myString = "He said that \"He's happy\""
+myString = 'He said that "He\'s happy"'
+```
+
 ## String Concatenation and Repetition
 
 You can combine string together by using the `+` operator.

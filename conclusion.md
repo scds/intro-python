@@ -15,17 +15,26 @@ Add, edit, or remove any content below for the workshop in question.
 
 <!-- Recap your learning objectives from the introductory. -->
 You should now be able to:
-- To do this
-- And this other thing
-- Double check that the learning objectives in the introduction match up!
+- Describe what Python is and what it can be used for
+- Create, use, and modify variables to store and use data
+- Print data to the screen
+- Use integers, floats, complex numbers, booleans, strings, lists, tuples, sets, and dictionaries
+- Control the flow of a program using conditional statements and loops
+- Create and use functions to reuse code
 
 <!-- This is where you can add additional resources for your readers. -->
 # Additional Resources
 To learn more about any particular topic, take a look at the links below.
 
-## Topic
-- Some link
-- Other 
+## Python Math Library
+- <https://www.w3schools.com/python/module_math.asp>
 
-## Topic 2
-- Other resource
+## Complex Numbers
+- <https://realpython.com/python-complex-numbers/#getting-to-know-python-complex-numbers>
+
+## Intermediate Python Workshop
+- <https://scds.github.io/dash-webinars/IntermediatePython.html>
+
+## Kaggle
+Kaggle is an online platform that helps data scientists get access to public datasets.
+- <https://www.kaggle.com/>

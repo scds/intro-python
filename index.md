@@ -24,10 +24,10 @@ Presentation by Vivek Jadon, Data Specialist. [Get in touch with Vivek.](https:/
 ## Prerequisites
 
 <!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->
-Access to one of the following (this will be covered in the Preparation page):
+Access to **one** of the following (this will be covered in the Preparation page):
 - Jupyter Notebook
 - Google Colab
-- Local Python installation (Anaconda)
+- Local Python installation
 
 ## Learning Objectives
 
