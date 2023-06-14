@@ -49,7 +49,7 @@ If you haven't already, [sign in to Jupyter Notebook](https://mcmaster.syzygy.ca
 
 The home page of Jupyter Notebook is the file explorer, where you can access any files you created. If it's your first time using Jupyter Notebook, it'll be empty. To create a new Python Notebook file (.ipynb), click on the `New` button at the top right and select `Python3 (ipykernel)`.
 
-<img width="100%" src="../assets/img/lessons/jupyter1.png" style="border: 2px solid #000;">
+<img alt="creating a new python notebook file in Jupyter Notebook" width="100%" src="../assets/img/lessons/jupyter1.png" style="border: 2px solid #000;">
 
 <br>
 
@@ -58,7 +58,7 @@ You should automatically be sent to your Python Notebook environment. It should 
 - You can rename your Python Notebook file by clicking on the "Untitled" text beside the JupyterHub logo.
 - To save your file, use the `Save and Checkpoint` button with a disk icon found below the JupyterHub logo. You can also use `Ctrl` + `S` shortcut (or `Cmd` + `S` for Mac users) to save.
 
-<img width="100%" src="../assets/img/lessons/jupyter2.png" style="border: 2px solid #000;">
+<img alt="jupyterhub page interface" width="100%" src="../assets/img/lessons/jupyter2.png" style="border: 2px solid #000;">
 
 <br>
 
@@ -67,13 +67,13 @@ Your Python Notebook file consists of code blocks. You can write Python code in 
 {: .warning}
 If a code block is taking too long to run, you might have encountered an infinite loop. Use the `interrupt the kernel` button beside the `Run` button to stop it.
 
-<img width="100%" src="../assets/img/lessons/jupyter3.png" style="border: 2px solid #000;">
+<img alt="using jupyterhub codeblock" width="100%" src="../assets/img/lessons/jupyter3.png" style="border: 2px solid #000;">
 
 <br>
 
 To create new code blocks, click on the `+` button beside the `Save and Checkpoint` button.
 
-<img width="100%" src="../assets/img/lessons/jupyter4.png" style="border: 2px solid #000;">
+<img alt="creating more code blocks" width="100%" src="../assets/img/lessons/jupyter4.png" style="border: 2px solid #000;">
 
 {: .note }
 No matter what code block you're on, Python Notebook will keep the data of all previously run code blocks. If you're opening up a Notebook, or your Notebook connection resets, you have to run every block code from the start.
@@ -87,13 +87,13 @@ If you haven't already, [sign in to Google Colab](https://colab.research.google.
 
 After signing in, you may encounter the `Recent` page below. This is where you'll be able to open up recent Python Notebook files (.ipynb). To create a new Python Notebook file, we'll need to `Cancel` out of this pop-up.
 
-<img width="90%" src="../assets/img/lessons/colab1.png" style="border: 2px solid #000;">
+<img alt="google colab recent files popup" width="90%" src="../assets/img/lessons/colab1.png" style="border: 2px solid #000;">
 
 <br>
 
 Navigate to the top left of your screen, click on `File`, and then click on `New notebook`.
 
-<img width="70%" src="../assets/img/lessons/colab2.png" style="border: 2px solid #000;">
+<img alt="create new notebook in colab" width="70%" src="../assets/img/lessons/colab2.png" style="border: 2px solid #000;">
 
 <br>
 
@@ -102,7 +102,7 @@ You should automatically be sent to your Python Notebook environment. It should 
 - You can rename your Python Notebook file by clicking on the "Untitled.ipynb" text beside the Colab logo.
 - Google Colab automatically saves your work, no need for manual saving.
 
-<img width="100%" src="../assets/img/lessons/colab3.png" style="border: 2px solid #000;">
+<img alt="google colab code interface" width="100%" src="../assets/img/lessons/colab3.png" style="border: 2px solid #000;">
 
 <br>
 
@@ -111,7 +111,7 @@ Your Python Notebook file consists of code blocks. You can write Python code in 
 {: .warning}
 If a code block is taking too long to run, you might have encountered an infinite loop. Use the `interrupt the kernel` button beside the `Run` button to stop it.
 
-<img width="100%" src="../assets/img/lessons/colab4.png" style="border: 2px solid #000;">
+<img alt="using a code block in google colab" width="100%" src="../assets/img/lessons/colab4.png" style="border: 2px solid #000;">
 
 <br>
 
@@ -120,7 +120,7 @@ To create new code blocks, click on the `+` button beside the `Save and Checkpoi
 {: .note }
 No matter what code block you're on, Python Notebook will keep the data of all previously run code blocks. If you're opening up a Notebook, or your Notebook connection resets, you have to run every block code from the start.
 
-<img width="100%" src="../assets/img/lessons/colab5.png" style="border: 2px solid #000;">
+<img alt="creating code blocks in google colab" width="100%" src="../assets/img/lessons/colab5.png" style="border: 2px solid #000;">
 
 </details>
 
@@ -138,19 +138,19 @@ Once that's installed, open up the **Anaconda Navigator** application. Included 
 
 Spyder and Visual Studio Code are standalone IDEs, whereas JupyterLab and Jupyter Notebooks opens up locally in your browser. For the purposes of this workshop, we recommend you use Jupyter Notebooks.
 
-<img width="100%" src="../assets/img/lessons/anaconda1.png" style="border: 2px solid #000;">
+<img alt="anaconda navigator menu" width="100%" src="../assets/img/lessons/anaconda1.png" style="border: 2px solid #000;">
 
 <br>
 
 When you first launch Jupyter Notebooks, you will see a file explorer. Go to the location you want to store your Python files in, (I recommend making a new "Python" folder in the Documents directory).
 
-<img width="100%" src="../assets/img/lessons/anaconda2.png" style="border: 2px solid #000;">
+<img alt="local jupyter notebook file explorer" width="100%" src="../assets/img/lessons/anaconda2.png" style="border: 2px solid #000;">
 
 <br>
 
 To create a new Python Notebook file (.ipynb), click on the `New` button at the top right and select `Python3 (ipykernel)`.
 
-<img width="100%" src="../assets/img/lessons/anaconda3.png" style="border: 2px solid #000;">
+<img alt="creating a python notebook file in jupyter notebook" width="100%" src="../assets/img/lessons/anaconda3.png" style="border: 2px solid #000;">
 
 <br>
 
@@ -159,7 +159,7 @@ You should automatically be sent to your Python Notebook environment. It should 
 - You can rename your Python Notebook file by clicking on the "Untitled" text beside the JupyterHub logo.
 - To save your file, use the `Save and Checkpoint` button with a disk icon found below the JupyterHub logo. You can also use `Ctrl` + `S` shortcut (or `Cmd` + `S` for Mac users) to save.
 
-<img width="100%" src="../assets/img/lessons/anaconda4.png" style="border: 2px solid #000;">
+<img alt="jupyter notebook interface" width="100%" src="../assets/img/lessons/anaconda4.png" style="border: 2px solid #000;">
 
 <br>
 
@@ -168,13 +168,13 @@ Your Python Notebook file consists of code blocks. You can write Python code in 
 {: .warning}
 If a code block is taking too long to run, you might have encountered an infinite loop. Use the `interrupt the kernel` button beside the `Run` button to stop it.
 
-<img width="100%" src="../assets/img/lessons/anaconda5.png" style="border: 2px solid #000;">
+<img alt="using a code block jupyter notebook" width="100%" src="../assets/img/lessons/anaconda5.png" style="border: 2px solid #000;">
 
 <br>
 
 To create new code blocks, click on the `+` button beside the `Save and Checkpoint` button.
 
-<img width="100%" src="../assets/img/lessons/anaconda6.png" style="border: 2px solid #000;">
+<img alt="creating code blocks jupyter notebook" width="100%" src="../assets/img/lessons/anaconda6.png" style="border: 2px solid #000;">
 
 {: .note }
 No matter what code block you're on, Python Notebook will keep the data of all previously run code blocks. If you're opening up a Notebook, or your Notebook connection resets, you have to run every block code from the start.
