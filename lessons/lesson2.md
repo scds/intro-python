@@ -36,7 +36,7 @@ Rather than just using numbers in our calculator, we can initialize and store th
 
 ## Identifier Rules
 
-All variables need identifying names, more formerly called identifiers.
+All variables need identifying names, more formally called identifiers.
 
 Python has some rules and restrictions for identifiers.
 - Identifiers can consist of uppercase letters, lowercase letters, digits, and underscores.
