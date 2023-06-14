@@ -247,6 +247,29 @@ Output
 ```
 </div>
 
+
+{: .note }
+> `pop()` also returns the value that was removed.
+> 
+> <div class="code-example" markdown="1">
+> 
+> {: .label }
+> Input
+> ```python
+> myList = [1, 2.0, 3, "hello", 2]
+> removedElement = myList.pop()
+> print(myList)
+> print(f"The removed value was {removedElement}")
+> ```
+> 
+> {: .label .label-green }
+> Output
+> ```
+> [1, 2.0, 3, "hello"]
+> The removed value was 2
+> ```
+> </div>
+
 If you want to remove a specific index, you can use the `pop()` function again, but specify which index to remove.
 
 <div class="code-example" markdown="1">

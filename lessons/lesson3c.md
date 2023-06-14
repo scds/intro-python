@@ -221,9 +221,9 @@ Input
 ```python
 myString = "Hello."
 
-print(myString[1:3])  # Gets index 3 (inclusive) to index 5 (exclusive).
-print(myString[1:])   # Gets index 3 (inclusive) to the end of the string.
-print(myString[:3])   # Gets the entire string up until index 5 (exclusive).
+print(myString[1:3])  # Gets index 1 (inclusive) to index 3 (exclusive).
+print(myString[1:])   # Gets index 1 (inclusive) to the end of the string.
+print(myString[:3])   # Gets the entire string up until index 3 (exclusive).
 ```
 
 {: .label .label-green }
