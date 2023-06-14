@@ -41,7 +41,7 @@ By the end of this tutorial, you should be able to:
 - Create and use functions
 
 <!-- Estimate the time the workshop will take to complete. Feel free to remove this. -->
-## Duration (optional)
+## Duration
 This module will take around 2 to 3 hours, however feel free to work at your own pace!
 
 ## Land Acknowledgement
