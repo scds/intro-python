@@ -86,7 +86,7 @@ You can combine string together by using the `+` operator.
 Input
 ```python
 myString = "abc"
-myString2 = "ABC
+myString2 = "ABC"
 
 print(myString + myString2)
 ```
