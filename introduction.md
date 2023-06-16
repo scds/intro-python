@@ -69,5 +69,5 @@ Some Python IDEs include, but are not limited to:
 - Spyder
 - Sublime Text
 - Microsoft Visual Studio Code (VS Code)
-- Jupyter
+- Jupyter Notebook
 

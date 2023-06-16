@@ -33,6 +33,12 @@ Please only choose **one** of the tools below.
 - If you'd rather have a local installation of Python, you can use Anaconda. Anaconda is a distribution of Python built for data science. It comes included with useful data science packages.
 - Download and install at <https://www.anaconda.com/>.
 - Follow along with the guide for your OS system for installation instructions.
-    - Windows: <https://docs.anaconda.com/free/anaconda/install/windows/>
-    - MacOS: <https://docs.anaconda.com/free/anaconda/install/mac-os/>
-    - Linux: <https://docs.anaconda.com/free/anaconda/install/linux/>
+
+Windows
+: <https://docs.anaconda.com/free/anaconda/install/windows/>
+
+MacOS
+: <https://docs.anaconda.com/free/anaconda/install/mac-os/>
+
+Linux
+: <https://docs.anaconda.com/free/anaconda/install/linux/>

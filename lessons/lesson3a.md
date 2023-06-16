@@ -66,7 +66,7 @@ Output
 
 Integers in Python, unlike other programming languages, don't have a size limit. If you give Python enough memory resources, you could have 1000... with a million zeroes if you desired.
 
-As we mentioned in a previous lesson, we can use math operations on integers. Addition (+), subtraction (-), multiplication (*), division (/), modulus (%), exponentiation (**), and floor division (//). 
+As we mentioned in a previous lesson, we can use math operations on integers. Addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), modulus (`%`), exponentiation (`**`), and floor division (`//`). 
 
 {: .note}
 > Division, regardless of whether it produces an integer value, turns the output into a float value. 
@@ -135,7 +135,7 @@ print(g)
 Output
 ```
 6.6743e-11
-6.6743e-11a
+6.6743e-11
 ```
 </div>
 

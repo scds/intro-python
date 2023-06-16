@@ -17,7 +17,7 @@ Add, edit, or remove any content below for the workshop in question. -->
 <!-- Main header -->
 # Introduction to Python
 
-This beginner level workshop will introduce you to the basic concepts of one of the world's most popular programming languages, Python. In this tutorial, you'll learn (learning objectives line). No prior knowledge of Python is required.
+This beginner level workshop will introduce you to the basic concepts of one of the world's most popular programming languages, Python. In this tutorial, you'll learn how to store data using PYthon's data types and variables, control the flow of a program using control structures, and create reusable code using functions. No prior knowledge of Python is required.
 
 Presentation by Vivek Jadon, Data Specialist. [Get in touch with Vivek.](https://library.mcmaster.ca/index.php/jadon-vivek)
 
@@ -42,7 +42,7 @@ By the end of this tutorial, you should be able to:
 
 <!-- Estimate the time the workshop will take to complete. Feel free to remove this. -->
 ## Duration
-This module will take around 2 to 3 hours, however feel free to work at your own pace!
+This module will take around 1 to 2 hours, however feel free to work at your own pace!
 
 ## Land Acknowledgement
 We'd like to acknowledge that McMaster University sits on the Territories of the Mississauga and Haudenosaunee Nations, and within the lands protected by the Dish With One Spoon wampum agreement.

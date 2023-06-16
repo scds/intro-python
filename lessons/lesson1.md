@@ -53,12 +53,12 @@ If there are multiple operations in the same line, they follow the order of oper
 
 <!-- https://www.tablesgenerator.com/markdown_tables -->
 
-| Operation                                         | Symbol      |
-|---------------------------------------------------|-------------|
-| Parentheses                                       | ( )         |
-| Exponents                                         | **          |
-| Multiplication, Division, Floor Division, Modulus | *, /, //, % |
-| Addition and Subtraction                          | +, -        |
+|                       Operation                       |        Symbol       |
+|-------------------------------------------------------|:-------------------:|
+|                      Parentheses                      |       `(` `)`       |
+|                       Exponents                       |         `**`        |
+| Multiplication, Division, Floor Division, and Modulus | `*`, `/`, `//`, `%` |
+|                Addition and Subtraction               |       `+`, `-`      |
 
 <div class="code-example" Markdown="1">
 {: .label }
@@ -72,16 +72,6 @@ Output
 ```
 13
 ```
-
-{: .important-title }
-> Tip
->
-> To use a square root, put the value to the exponent of 0.5.
->
-> ```python
-> 16 ** 0.5
-> ```
-
 </div>
 
 Although we've only been using integers for our math, Python supports decimal numbers as well as complex numbers. We'll briefly talk about complex numbers later in [Lesson 3a.](lesson3a)
