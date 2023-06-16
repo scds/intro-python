@@ -132,7 +132,7 @@ myList[0][2]
 `myList[0]` will give us `[1, 2, 3]`. Since we want the `3`, we need to index again, adding another `[2]` to it. This leaves us with `myList[0][2]`.
 
 {: .new-title }
-> Exercise 1                                           <!-- This is where you edit the title -->
+> Exercise                                           <!-- This is where you edit the title -->
 > 
 > How would you access the `"b"` string in the second list of `myList`?
 >
@@ -161,6 +161,9 @@ variable.function()
 Functions that follow the dot notation above are unique to that particular data type. In this case, `append()` will only work on lists.
 
 To get a full list of dot notation functions for any variable and data type, use the `help()` function.
+
+{: .warning }
+A lot of functions will begin with underscores _. Skip through those ones, they are meant mostly for Python's use rather than your own.
 
 <div class="code-example" markdown="1">
 
@@ -225,6 +228,63 @@ Output
 [1, 2.0, 3, 24, "hello", 2]
 ```
 </div>
+
+### Combining Lists
+To combine lists, you can use the `extend()` function.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+myList = [1, 2, 3, 4]
+myList2 = [5, 6, 7, 8]
+
+myList.extend(myList2)
+print(myList)
+```
+
+{: .label .label-green }
+Output
+```
+[1, 2, 3, 4, 5, 6, 7, 8]
+```
+</div>
+
+### Append vs Extend
+
+Append and extend are often mixed up.
+
+Append
+: Adds an element to the end of a list.
+
+Extend
+: Combines two lists.
+
+The code below incorrectly uses append to try and combine 2 lists.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```python
+myList = [1, 2, 3, 4]
+myList2 = [5, 6, 7, 8]
+
+myList.append(myList2)
+
+print(myList)
+```
+
+{: .label .label-green }
+Output
+```
+[1, 2, 3, 4, [5, 6, 7, 8]]
+```
+</div>
+
+As you can see, rather than combining the 2 lists, it ends up making `myList2` an item in `myList`.
+
 
 ### Removing Elements from a List
 
@@ -451,6 +511,33 @@ myTuple = (1, 2, 3, 4)
 > ```python
 > myTuple = (1,)
 > ```
+
+### Lists vs Tuples
+
+Take the time to use the `help()` function on a list and tuple to compare the available functions for the two data types.
+
+{: .new-title }
+> Exercise                                           <!-- This is where you edit the title -->
+> 
+> Why do you think that tuple has so few functions compared to lists?  
+> *Tip: Tuples cannot be modified.*
+>
+> <details>
+>   <summary> See Answer </summary>
+>   <div markdown="1">
+>   {: .note-title }                                   
+> > Answer
+> > 
+> > Functions for lists
+> > : **append**, **clear**, **copy**, `count, **extend**, index, **insert**, **pop**, **remove**, **reverse**, **sort**  
+> >
+> > Functions for tuples
+> > : count, index
+> >
+> > All the functions list has but tuples doesn't are bolded. As you may notice, all the bolded function modify the original list in one way or another (with the exception of copy). Since tuples cannot be modified, they can't use those functions.
+>   </div>
+> </details>
+
 
 ## Sets
 

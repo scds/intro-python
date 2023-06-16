@@ -29,6 +29,21 @@ The following video demonstrates each of the steps outlined below in text.
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
 [View original here.](https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false) -->
 
+## What Are Functions?
+
+A function contains lines of code that are run when the function is called. Functions can take in any number of inputs, or no inputs at all. Functions can also output a value, but they don't have to either.
+
+Python provides lots of built-in functions, but you can also make your own.
+
+## When Should I Use Functions?
+
+If you find yourself using the same set of code multiple times throughout your program, you should make a function for it.
+
+Benefits of Functions:
+- You avoid repeating the same set of lines.
+- You only have to edit the code once for it to apply to all areas you use the function
+
+
 ## Creating a Function
 
 In Python, a function is defined using the `def` keyword.

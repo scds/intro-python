@@ -317,25 +317,25 @@ Output
 >   </div>
 > </details>
 
-`count()` is a useful function for creating `for` loops. `count(x)` automatically creates a list from 1 to `x` (inclusive) for the loop to iterate over.
+`range()` is a useful function for creating `for` loops. `range(x)` automatically creates a list from 0 to `x` (exclusive) for the loop to iterate over.
 
 <div class="code-example" markdown="1">
 
 {: .label }
 Input
 ```python
-for x in count(5):
+for x in range(5):
   print(x)
 ```
 
 {: .label .label-green }
 Output
 ```
+0
 1
 2
 3
 4
-5
 ```
 </div>
 

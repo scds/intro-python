@@ -17,9 +17,9 @@ Add, edit, or remove any content below for the workshop in question. -->
 <!-- Main header -->
 # Introduction to Python
 
-This beginner level workshop will introduce you to the basic concepts of one of the world's most popular programming languages, Python. In this tutorial, you'll learn how to store data using PYthon's data types and variables, control the flow of a program using control structures, and create reusable code using functions. No prior knowledge of Python is required.
+This beginner level workshop will introduce you to the basic concepts of one of the world's most popular programming languages, Python. In this tutorial, you'll learn how to store data using Python's data types and variables, control the flow of a program using control structures, and create reusable code using functions. No prior knowledge of Python is required.
 
-Presentation by Vivek Jadon, Data Specialist. [Get in touch with Vivek.](https://library.mcmaster.ca/index.php/jadon-vivek)
+This workshop is offered by the Data Analysis Support Hub (DASH). [Get in touch with DASH.](https://library.mcmaster.ca/services/dash#:~:text=Please%20continue%20to%20email%20us,%40mcmaster.ca%20for%20assistance.)
 
 ## Prerequisites
 

@@ -146,6 +146,17 @@ True
 ```
 </div>
 
+## Order of Logical Operations
+
+Just like regular algebra, booleans have their own order of operations. The order is listed in the table below. Operations at the top have higher precedence.
+
+| Logical Operator | Keyword |
+|------------------|:-------:|
+| Brackets         |    ( )  |
+| NOT              |     !   |
+| AND              |     &   |
+| OR               |     \|  |
+
 ## Numerical Comparisons
 
 We can also compare the values of expressions to generate a boolean as well.

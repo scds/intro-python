@@ -26,6 +26,10 @@ You should now be able to:
 # Additional Resources
 To learn more about any particular topic, take a look at the links below.
 
+## Constellate Tutorials
+All McMaster members have access to Constellate's Python interactive tutorials.
+- <https://constellate.org/tutorials/> 
+
 ## Python Math Library
 - <https://www.w3schools.com/python/module_math.asp>
 
@@ -38,3 +42,7 @@ To learn more about any particular topic, take a look at the links below.
 ## Kaggle
 Kaggle is an online platform that helps data scientists get access to public datasets.
 - <https://www.kaggle.com/>
+
+## Stack Overflow
+Stack Overflow is **the** number one place to look for and ask programming-related questions. If you Google a Python error, chances are that Stack Overflow appears in the results. 
+- <https://stackoverflow.com/>
