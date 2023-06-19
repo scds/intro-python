@@ -45,8 +45,6 @@ line3
 
 Take a look at the code block above. This is the general structure of an `if` statement. If the `expression` is evaluation to be `True`, line1 and line2 will execute. Otherwise, if the `expression` is evaluated to be `False`, Python will skip over line1 and line2.
 
-An important part of Python that we haven't discussed yet is the indentation. With `if` statements, anything you want to be included within the conditional statement needs to be indented with a `Tab`. In the example above, line1 and line2 are conditionally executed, whereas line3 will always be executed since it is not part of the if statement.
-
 {: .new-title }
 > Exercise                                             <!-- This is where you edit the title -->
 > 
@@ -70,6 +68,8 @@ An important part of Python that we haven't discussed yet is the indentation. Wi
 > > 7 is larger than 6
 >   </div>
 > </details>
+
+An important part of Python that we haven't discussed yet is the indentation. With `if` statements, anything you want to be included within the conditional statement needs to be indented with a `Tab`. In the example above, line1 and line2 are conditionally executed, whereas line3 will always be executed since it is not part of the if statement.
 
 ### `else` Blocks
 
@@ -179,8 +179,9 @@ In the example above, line1 is executed if `expression` evalutes to be `True`. I
 >   {: .note-title }                                   
 > > Answer
 > >
-> > You got an A!  
-> > You got a B! 
+> > You got a B!
+> > You got a C! 
+> > You got a D!
 >   </div>
 > </details>
 

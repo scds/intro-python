@@ -39,9 +39,9 @@ Python provides lots of built-in functions, but you can also make your own.
 
 If you find yourself using the same set of code multiple times throughout your program, you should make a function for it.
 
-Benefits of Functions:
-- You avoid repeating the same set of lines.
-- You only have to edit the code once for it to apply to all areas you use the function
+Benefits of functions:
+- You avoid repeating the same set of code.
+- You only have to edit the code once for it to apply to all areas you use the function.
 
 
 ## Creating a Function
@@ -183,7 +183,7 @@ Charlotte from Norway is 13 years old.
 
 ## Return Values
 
-Functions can also return values using a `return` statement.
+Functions can also return values using a `return` statement. Once a `return` statement is reached, the function returns the value and terminates. No lines of code after `return` are executed.
 
 <div class="code-example" markdown="1">
 
@@ -237,8 +237,32 @@ def quadraticFormula(a, b, c):
   pass
 ```
 
+## Variable Scope
+
+One thing that we haven't mentioned is the lifecycle of variables. Variables created inside functions are destroyed once the function terminates.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```py
+def myFunction():
+  a = 5
+  b = 6
+
+myFunction()
+print(a)
+```
+
+{: .label .label-green }
+Output
+```
+NameError: name 'a' is not defined
+```
+</div>
+
 ## Key Points / Summary
 
 - You can create reusable pieces of code using functions.
 - Parameters are the variables inside the function declaration, whereas arguments are the values passed to the function.
-
+- Variables inside of functions are destroyed after the function terminates.
