@@ -1,5 +1,5 @@
 # Introduction to Python
-Materials for the DMDS workshop: **Introduction to Python**  
+Materials for the DASH workshop: **Introduction to Python**  
 
 This repository contains workshop files, as well as files used to create the [workshop webpage](https://scds.github.io/intro-python/) with GitHub Pages. 
 
