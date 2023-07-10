@@ -36,9 +36,6 @@ All McMaster members have access to Constellate's Python interactive tutorials.
 ## Complex Numbers
 - <https://realpython.com/python-complex-numbers/#getting-to-know-python-complex-numbers>
 
-## Intermediate Python Workshop
-- <https://scds.github.io/dash-webinars/IntermediatePython.html>
-
 ## Kaggle
 Kaggle is an online platform that helps data scientists get access to public datasets.
 - <https://www.kaggle.com/>
@@ -46,3 +43,6 @@ Kaggle is an online platform that helps data scientists get access to public dat
 ## Stack Overflow
 Stack Overflow is **the** number one place to look for and ask programming-related questions. If you Google a Python error, chances are that Stack Overflow appears in the results. 
 - <https://stackoverflow.com/>
+
+## Related Workshops
+- [Intermediate Python Programming](https://scds.github.io/dash-webinars/IntermediatePython.html)
