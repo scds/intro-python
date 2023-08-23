@@ -5,6 +5,9 @@ nav_order: 2
 parent: Lessons
 ---
 
+<!-- Script to resize H5P elements -->
+<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
+
 {: .no_toc}  
 # Lesson 2 - Storing and Displaying Data
 
@@ -46,8 +49,8 @@ Python has some rules and restrictions for identifiers.
 - Identifiers are case-sensitive.
   - `myVariable` and `MYVARIABLE` are considered two different variables.
 
-{: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+<!-- {: .new-title }
+> Exercise                                             
 > 
 > Which of the following are valid variable names?
 >
@@ -69,7 +72,9 @@ Python has some rules and restrictions for identifiers.
 > > - finally is **not** a valid variable name because it's one of Python's reserved keywords.
 > > - NAME is a valid variable name.
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57291/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Assigning Values to Variables
 
