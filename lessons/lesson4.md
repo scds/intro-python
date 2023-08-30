@@ -5,6 +5,9 @@ nav_order: 4
 parent: Lessons
 ---
 
+<!-- Script to resize H5P elements -->
+<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
+
 {: .no_toc}  
 # Lesson 4 - Control Structures
 
@@ -45,8 +48,8 @@ line3
 
 Take a look at the code block above. This is the general structure of an `if` statement. If the `expression` is evaluation to be `True`, line1 and line2 will execute. Otherwise, if the `expression` is evaluated to be `False`, Python will skip over line1 and line2.
 
-{: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+<!-- {: .new-title }
+> Exercise                                  
 > 
 > What is the output of the code block below?
 >
@@ -67,7 +70,9 @@ Take a look at the code block above. This is the general structure of an `if` st
 > > 
 > > 7 is larger than 6
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57443/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 An important part of Python that we haven't discussed yet is the indentation. With `if` statements, anything you want to be included within the conditional statement needs to be indented with a `Tab`. In the example above, line1 and line2 are conditionally executed, whereas line3 will always be executed since it is not part of the if statement.
 
@@ -85,8 +90,8 @@ else:
 
 In the example above, line1 and line2 are executed if the expression evaluates to be `True`. Otherwise, if the expression evaluates to be `False`, line3 will be executed.
 
-{: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+<!-- {: .new-title }
+> Exercise
 > 
 > What is the output of the code block below?
 >
@@ -106,7 +111,9 @@ In the example above, line1 and line2 are executed if the expression evaluates t
 > > 
 > > 6 is not in the list
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57463/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ### `elif` Blocks
 
@@ -123,8 +130,8 @@ else:
 
 In the example above, line1 is executed if `expression` evalutes to be `True`. If and only if `expression` evaluates to be `False`, it will test `expression2`. If `expression2` is `True`, line 2 will be executed. Otherwise, line3 will be executed.
 
-{: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+<!-- {: .new-title }
+> Exercise             
 > 
 > What is the output of the code block below?
 >
@@ -150,12 +157,14 @@ In the example above, line1 is executed if `expression` evalutes to be `True`. I
 > > 
 > > You got a C!
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57465/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ### Extra Exercises
 
-{: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+<!-- {: .new-title }
+> Exercise                     
 > 
 > What is the output of the code block below?
 >
@@ -183,10 +192,13 @@ In the example above, line1 is executed if `expression` evalutes to be `True`. I
 > > You got a C! 
 > > You got a D!
 >   </div>
-> </details>
+> </details> -->
 
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57472/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<!-- 
 {: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+> Exercise                      
 > 
 > What is the output of the code block below?
 >
@@ -212,7 +224,9 @@ In the example above, line1 is executed if `expression` evalutes to be `True`. I
 > >
 > > You got 1 head.
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57498/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Loops
 
@@ -235,8 +249,8 @@ The code above would run line1 and line2 repeatedly until the `expression` is `F
 {: .note } 
 Just like `if` statements, code inside `while` loops needs to be indented. 
 
-{: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+<!-- {: .new-title }
+> Exercise                    
 > 
 > What is the output of the code block below?
 >
@@ -259,7 +273,9 @@ Just like `if` statements, code inside `while` loops needs to be indented.
 > >
 > > [2, 4, 8, 16, 32]
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57502/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ### `for` Loops
 
@@ -293,8 +309,9 @@ Output
 ```
 </div>
 
+<!-- 
 {: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+> Exercise                               
 > 
 > What is the output of the code block below?
 >
@@ -316,7 +333,9 @@ Output
 > > Hi Brian!  
 > > Hi Angelica!
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57504/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 `range()` is a useful function for creating `for` loops. `range(x)` automatically creates a list from 0 to `x` (exclusive) for the loop to iterate over.
 

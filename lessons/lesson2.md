@@ -100,8 +100,8 @@ myVariable = <new value>
 
 and that would set the value of `myVariable` to our new value.
 
-{: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+<!-- {: .new-title }
+> Exercise
 > 
 > What is the value of **a** after this code is executed?
 >
@@ -125,7 +125,9 @@ and that would set the value of `myVariable` to our new value.
 > > - **a** is assigned the value of **b**, which is 10.            (a = 10, b = 10)  
 > > - Finally, **b** is assigned the value of 2.                (a = 10, b = 2)
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57429/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Using Variables in Math
 

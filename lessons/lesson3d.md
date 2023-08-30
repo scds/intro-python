@@ -6,6 +6,9 @@ parent: Lesson 3 - Data Types
 grand_parent: Lessons
 ---
 
+<!-- Script to resize H5P elements -->
+<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
+
 {: .no_toc}  
 # Lesson 3d - Containers
 Suppose we had to keep track of the class average. We can’t just make a variable for each mark because there could be dozens, maybe hundreds, of marks to store. This is where containers come in.
@@ -131,8 +134,8 @@ myList[0][2]
 
 `myList[0]` will give us `[1, 2, 3]`. Since we want the `3`, we need to index again, adding another `[2]` to it. This leaves us with `myList[0][2]`.
 
-{: .new-title }
-> Exercise                                           <!-- This is where you edit the title -->
+<!-- {: .new-title }
+> Exercise                                           
 > 
 > How would you access the `"b"` string in the second list of `myList`?
 >
@@ -148,7 +151,10 @@ myList[0][2]
 > > 
 > > `myList[1]` will give us `["a", "b", "c"]`. Since we want the `"b"`, we need to index again, adding another `[1]` to it. This leaves us with `myList[1][1]`.
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57433/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
 
 ### Dot Notation for Functions
 
@@ -516,8 +522,14 @@ myTuple = (1, 2, 3, 4)
 
 Take the time to use the `help()` function on a list and tuple to compare the available functions for the two data types.
 
-{: .new-title }
-> Exercise                                           <!-- This is where you edit the title -->
+Functions for lists
+: append, clear, copy, count, extend, index, insert, pop, remove, reverse, sort
+
+Functions for tuples
+: count, index
+
+<!-- {: .new-title }
+> Exercise               
 > 
 > Why do you think that tuple has so few functions compared to lists?  
 > *Tip: Tuples cannot be modified.*
@@ -529,15 +541,16 @@ Take the time to use the `help()` function on a list and tuple to compare the av
 > > Answer
 > > 
 > > Functions for lists
-> > : **append**, **clear**, **copy**, `count, **extend**, index, **insert**, **pop**, **remove**, **reverse**, **sort**  
+> > : **append**, **clear**, **copy**, count, **extend**, index, **insert**, **pop**, **remove**, **reverse**, **sort**  
 > >
 > > Functions for tuples
 > > : count, index
 > >
 > > All the functions list has but tuples doesn't are bolded. As you may notice, all the bolded function modify the original list in one way or another (with the exception of copy). Since tuples cannot be modified, they can't use those functions.
 >   </div>
-> </details>
+> </details> -->
 
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57439/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Sets
 

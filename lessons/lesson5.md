@@ -5,6 +5,9 @@ nav_order: 5
 parent: Lessons
 ---
 
+<!-- Script to resize H5P elements -->
+<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
+
 {: .no_toc}  
 # Lesson 5 - Functions
 
@@ -207,8 +210,8 @@ The two roots of x^2 + 5x + 6 are -2.0 and -3.0.
 ```
 </div>
 
-{: .new-title }
-> Exercise                                             <!-- This is where you edit the title -->
+<!-- {: .new-title }
+> Exercise                            
 > 
 > Try creating a function with a "number" parameter. The function should return that number multiplied by 2.
 >
@@ -225,7 +228,9 @@ The two roots of x^2 + 5x + 6 are -2.0 and -3.0.
 > >   return newNumber
 > > ```
 >   </div>
-> </details>
+> </details> -->
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/57509/embed" style="border: solid 2px #7a003c" width="100%" height="350" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Empty Functions
 
