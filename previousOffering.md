@@ -15,6 +15,13 @@ parent: Home
 Workshop live recordings are listed here. They are provided as an **alternative** to the workshop content provided here. They are **not** required.
 
 <details markdown="1">
+<summary>February 2024</summary>
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/65293312-85de-4787-8841-deab593ee532/public"></iframe>
+[View original here.](https://echo360.ca/media/65293312-85de-4787-8841-deab593ee532/public)
+
+</details>
+
+<details markdown="1">
 <summary>October 2022</summary>
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/60aeca91-1d04-493f-a94e-ee733efa3520/public"></iframe>
 [View original here.](https://echo360.ca/media/60aeca91-1d04-493f-a94e-ee733efa3520/public)
