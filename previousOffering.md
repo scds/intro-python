@@ -19,6 +19,12 @@ Workshop live recordings are listed here. They are provided as an **alternative*
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/65293312-85de-4787-8841-deab593ee532/public"></iframe>
 [View original here.](https://echo360.ca/media/65293312-85de-4787-8841-deab593ee532/public)
 
+<embed src="assets/docs/IntroPythonSlidesFeb2024.pdf" style="border:none;" width="100%" height="466px">
+[Download as PDF.](assets/docs/IntroPythonSlidesFeb2024.pdf)
+
+Access the workshop files in the *Intro to Python* folder here:
+- [Google Drive](https://www.bit.ly/2MVaTmv)
+
 </details>
 
 <details markdown="1">
